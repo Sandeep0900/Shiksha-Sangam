@@ -24,7 +24,7 @@ const Signup = () => {
         }
         try {
             setLoading(true); // Show loading state
-            const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/auth/register`, {
+            const response = await fetch(`https://shiksha-sangam-backend.onrender.com/auth/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -61,7 +61,7 @@ const Signup = () => {
 
         try {
             setLoading(true); // Show loading state
-            const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/auth/sendotp`, {
+            const response = await fetch(`https://shiksha-sangam-backend.onrender.com/auth/sendotp`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
