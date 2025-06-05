@@ -21,7 +21,7 @@ const ProtectedRoute = ({ children }) => {
   useEffect(() => {
     const checkLoginStatus = async () => {
       try {
-        const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/auth/checklogin`, {
+        const response = await fetch(`https://shiksha-sangam-backend.onrender.com/auth/checklogin`, {
           method: 'GET',
           credentials: 'include', // Include cookies for the auth token
         });
