@@ -15,7 +15,7 @@ const SearchPopup = ({ onClose }) => {
 
         if (term) {
             try {
-                const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/class/classrooms/search?term=${encodeURIComponent(term)}`);
+                const res = await fetch(`https://shiksha-sangam-backend.onrender.com/class/classrooms/search?term=${encodeURIComponent(term)}`);
 
                 if (!res.ok) {
                     throw new Error('Network response was not ok');
