@@ -1,4 +1,4 @@
-# 🎓 ClassroomHub - Frontend
+# 🎓 Shiksha-Sangam - ClassroomHub
 
 ClassroomHub is a modern and responsive web application built with **ReactJS** for managing virtual classrooms. This frontend connects with a backend server to enable role-based access for teachers and students, providing features like classroom creation, OTP-based join requests, and real-time post sharing.
 
