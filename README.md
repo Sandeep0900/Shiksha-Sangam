@@ -51,13 +51,6 @@ ClassroomHub is a modern and responsive web application built with **ReactJS** f
 └── context/
 └── AuthContext.js (for global auth state)
 
-yaml
-Copy
-Edit
-
-
-
-
 ---
 
 ## 🔧 Getting Started
